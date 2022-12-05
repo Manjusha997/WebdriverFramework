@@ -128,6 +128,30 @@ driver.findElement(By.xpath(config.getProperty("objBranches"))).click();
 				return false;	
 			}
 		}
+//		method for updateing role
+		public static  boolean VerifyroleUpdate(String Updaeroletype) throws Throwable {
+			driver.findElement(By.xpath(config.getProperty("objRolebtn"))).click();
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(config.getProperty("objedit"))).click();
+			Thread.sleep(2000);
+			WebElement roleupdate=driver.findElement(By.xpath(config.getProperty("updateroletype")));
+			//roleupdate.clear();//if u pass this stmt we get invalid state element exception
+			roleupdate.sendKeys(Updaeroletype);
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(config.getProperty("objupdaterole"))).click();
+			String exproleupdatealert=driver.switchTo().alert().getText();
+			Thread.sleep(2000);
+			driver.switchTo().alert().accept();
+			String actualroleupdatealert="Role updated";
+			if(exproleupdatealert.toLowerCase().contains(actualroleupdatealert.toLowerCase())) {
+				Reporter.log("Role update success:: "+exproleupdatealert+"   "+actualroleupdatealert,true);
+				return true;
+				}
+			else {
+				Reporter.log("Role update Fail:: "+exproleupdatealert+"   "+actualroleupdatealert,true);
+				return false;	
+			}
+			}
 		
 //	method for logout
 	public static boolean Verifylogout() throws Throwable {

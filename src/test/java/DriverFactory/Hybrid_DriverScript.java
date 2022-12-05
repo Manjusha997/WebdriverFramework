@@ -83,6 +83,13 @@ public class Hybrid_DriverScript extends PBConstant {
 							res=FunctionLibrary.VerifyNewRoleCreation(Role_name,role_des ,role_type );//							
 							test.log(LogStatus.INFO, Decription);
 						}
+//						role updateion
+						else if(Keyword.equalsIgnoreCase("UpdateRole")) {
+						String updaterole=xl.getCellData(TSsheet, j, 7);
+						FunctionLibrary.clickRoleButn();
+							res=FunctionLibrary.VerifyroleUpdate( updaterole );							
+							test.log(LogStatus.INFO, Decription);
+						}
 						
 						else if(Keyword.equalsIgnoreCase("AdminLogout")) {
 							res=FunctionLibrary.Verifylogout();

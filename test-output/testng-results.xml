@@ -11,7 +11,7 @@
       <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
     </line>
     <line>
-      <![CDATA[Branch creation success:: New Branch with id 20 created Sucessfully   New branch with]]>
+      <![CDATA[Branch creation success:: New Branch with id 25 created Sucessfully   New branch with]]>
     </line>
     <line>
       <![CDATA[Admin Logout Sucessful]]>
@@ -29,22 +29,31 @@
       <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
     </line>
     <line>
-      <![CDATA[Role creation success:: New Role with id 13 Created Sucessfully   New Role]]>
+      <![CDATA[Role creation success:: New Role with id 16 Created Sucessfully   New Role]]>
+    </line>
+    <line>
+      <![CDATA[Admin Logout Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[Role update success:: Role updated Sucessfully   Role updated]]>
     </line>
     <line>
       <![CDATA[Admin Logout Sucessful]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-04T14:24:01 IST" name="Default suite" finished-at="2022-12-04T14:24:55 IST" duration-ms="53944">
+  <suite started-at="2022-12-05T19:12:27 IST" name="Default suite" finished-at="2022-12-05T19:13:41 IST" duration-ms="73550">
     <groups>
     </groups>
-    <test started-at="2022-12-04T14:24:01 IST" name="Default test" finished-at="2022-12-04T14:24:55 IST" duration-ms="53944">
+    <test started-at="2022-12-05T19:12:27 IST" name="Default test" finished-at="2022-12-05T19:13:41 IST" duration-ms="73550">
       <class name="DriverFactory.Hybrid_DriverScript">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-04T14:23:58 IST" name="setup" finished-at="2022-12-04T14:24:01 IST" duration-ms="3601" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-05T19:12:23 IST" name="setup" finished-at="2022-12-05T19:12:27 IST" duration-ms="3859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="startTest()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-04T14:24:01 IST" name="startTest" finished-at="2022-12-04T14:24:55 IST" duration-ms="53906" status="PASS">
+        <test-method signature="startTest()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-05T19:12:27 IST" name="startTest" finished-at="2022-12-05T19:13:41 IST" duration-ms="73513" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
@@ -56,7 +65,7 @@
               <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
             </line>
             <line>
-              <![CDATA[Branch creation success:: New Branch with id 20 created Sucessfully   New branch with]]>
+              <![CDATA[Branch creation success:: New Branch with id 25 created Sucessfully   New branch with]]>
             </line>
             <line>
               <![CDATA[Admin Logout Sucessful]]>
@@ -74,14 +83,23 @@
               <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
             </line>
             <line>
-              <![CDATA[Role creation success:: New Role with id 13 Created Sucessfully   New Role]]>
+              <![CDATA[Role creation success:: New Role with id 16 Created Sucessfully   New Role]]>
+            </line>
+            <line>
+              <![CDATA[Admin Logout Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[login success::adminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[Role update success:: Role updated Sucessfully   Role updated]]>
             </line>
             <line>
               <![CDATA[Admin Logout Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-04T14:24:55 IST" name="Teardown" finished-at="2022-12-04T14:24:55 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:DriverFactory.Hybrid_DriverScript@67c33749]" started-at="2022-12-05T19:13:41 IST" name="Teardown" finished-at="2022-12-05T19:13:57 IST" duration-ms="16187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

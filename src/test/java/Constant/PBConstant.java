@@ -16,6 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class PBConstant {
 public static WebDriver driver;
 public static Properties config;
+
 @BeforeSuite
 public void setup() throws Throwable {
 	config=new Properties();
